@@ -1,0 +1,33 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[--tablo oluşturma
+/*  
+aciklama satiri yapilabilir.
+*/
+CREATE TABLE student
+(
+  std_id CHAR(3),
+  std_name VARCHAR2(20),
+  std_age NUMBER
+
+
+
+
+
+
+
+
+
+
+
+
+
+);]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619015121522]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.297]]></execTime>
+	</historyItem>
+</history>

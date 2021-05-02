@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT bolum_ad FROM bolumler
+    WHERE bolum_id = 'DHL';]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619433937218]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.006]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,14 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT isim,(SElECT cocuk_sayisi FROM aileler
+             WHERE calisanlar1.id = aileler.id)
+
+FROM calisanlar1]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619615432191]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.01]]></execTime>
+	</historyItem>
+</history>

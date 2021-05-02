@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select sirket,personel_sayisi,sum(maas) as "Toplam Maas" from personel,sirketler 
+where sirket=sirket_adi
+group by sirket,personel_sayisi;]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619463906847]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.006]]></execTime>
+	</historyItem>
+</history>

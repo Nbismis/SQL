@@ -1,0 +1,32 @@
+CREATE TABLE hastaneler(
+
+ hastane_id VARCHAR2(5),
+ hastane_ad VARCHAR2(25),
+ hastane_sehir VARCHAR2(10),
+ hastane_statu VARCHAR2 (3),
+ 
+ CONSTRAINT pk_id PRIMARY KEY (hastane_id)
+ 
+);
+
+INSERT INTO hastaneler VALUES('H101','Acı Madem Hastanesi','Istanbul','Y');
+INSERT INTO hastaneler VALUES('H102','Haszeki Hastanesi','Istanbul','N');
+INSERT INTO hastaneler VALUES('H103','Medikol Hastanesi','Izmir','Y');
+INSERT INTO hastaneler VALUES('H104','Nemoryil Hastanesi','IAnkara','Y');
+
+SELECT * FROM hastaneler;
+
+CREATE TABLE hastalar(
+
+hasta_kimlikNo VARCHAR2(11),
+hasta_ad VARCHAR2(25),
+hasta_teshis VARCHAR2(20),
+CONSTRAINT pk_kimlik PRIMARY KEY(hasta_kimlikNo)
+);
+
+INSERT INTO hastalar VALUES('12573638356','Ali Can','Gizli Seker');
+INSERT INTO hastalar VALUES('12545637856','Ayse Yilmaz','Gizli Seker');
+INSERT INTO hastalar VALUES('12556398356','Ali Can','Gizli Seker');
+INSERT INTO hastalar VALUES('12572987356','Ali Can','Gizli Seker');
+
+

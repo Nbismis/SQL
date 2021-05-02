@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT hastane_ad FROM hastaneler
+    WHERE hastane_id = 'H104';]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619453509252]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

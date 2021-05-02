@@ -1,0 +1,12 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select sum(maas) from personel where sirket  IN( select sirket_adi FROM sirketler)
+group by sirket;]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619462680980]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[2]]></executed>
+		<execTime><![CDATA[0.005]]></execTime>
+	</historyItem>
+</history>

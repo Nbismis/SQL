@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM calisanlar;]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619614004293]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.011]]></execTime>
+	</historyItem>
+</history>

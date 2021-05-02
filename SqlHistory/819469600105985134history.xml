@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT hasta_teshis FROM hastalar WHERE hasta_ad ='Tom Hanks']]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619455293918]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.007]]></execTime>
+	</historyItem>
+</history>

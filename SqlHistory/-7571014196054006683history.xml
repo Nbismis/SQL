@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select * from personeller;]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619882014074]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.165]]></execTime>
+	</historyItem>
+</history>

@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT * FROM deneme;]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619880090239]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[5]]></executed>
+		<execTime><![CDATA[0.011]]></execTime>
+	</historyItem>
+</history>

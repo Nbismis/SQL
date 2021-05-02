@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">ISIM</Item>
+      <Item class="java.lang.String">SIRKET</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>126</Item>
+      <Item>71</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23day1SELECT isim,sirket FROM personel
+WHERE sirket IN (SELECT sirket_adi FROM sirketler WHERE personel_sayisi>15000)</uniqueName>
+</TableSettings>

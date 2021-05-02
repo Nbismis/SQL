@@ -1,0 +1,17 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT isim AS isim_veya_sehir, maas
+    FROM personel
+    WHERE maas > 4000
+    UNION  ---     UNION ALL kullanılısa tekrarlı veriler elenmez
+    SELECT sehir, maas 
+    FROM personel
+    WHERE maas > 5000;]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619793699639]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.01]]></execTime>
+	</historyItem>
+</history>

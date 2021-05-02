@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[file:/Users/omeresat/.sqldeveloper/day4Update.sql]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619280703788]]></timestamp>
+		<type><![CDATA[Script]]></type>
+		<executed><![CDATA[17]]></executed>
+		<execTime><![CDATA[0.0]]></execTime>
+	</historyItem>
+</history>

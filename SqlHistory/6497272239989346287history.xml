@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[select m.musteri_isim from mart_satislar m
+     WHERE EXISTS  (SELECT urun_id FROM nisan_satislar n
+                   WHERE m.urun_id = n.urun_id);]]></sql>
+		<connection><![CDATA[admin]]></connection>
+		<timestamp><![CDATA[1619542513561]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.068]]></execTime>
+	</historyItem>
+</history>

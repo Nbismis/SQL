@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSettings class="oracle.dbtools.raptor.controls.grid.RaptorGridPersistedSettings" xmlns="http://xmlns.oracle.com/jdeveloper/110000/Table-attributes">
+   <columnPositions class="java.util.ArrayList">
+      <Item class="java.lang.String">STD_ID</Item>
+      <Item class="java.lang.String">STD_NAME</Item>
+      <Item class="java.lang.String">STD_AGE</Item>
+   </columnPositions>
+   <columnWidths>
+      <Item>56</Item>
+      <Item>104</Item>
+      <Item>65</Item>
+   </columnWidths>
+   <searchParams class="java.util.ArrayList"/>
+   <sortClauses>
+      <Item/>
+   </sortClauses>
+   <uniqueName>IdeConnections%23day1SELECT * FROM student</uniqueName>
+</TableSettings>

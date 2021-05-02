@@ -1,0 +1,11 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<history>
+	<historyItem>
+		<sql><![CDATA[SELECT ROUND (AVG(maas)) FROM calisanlar1]]></sql>
+		<connection><![CDATA[day1]]></connection>
+		<timestamp><![CDATA[1619614717534]]></timestamp>
+		<type><![CDATA[SQL]]></type>
+		<executed><![CDATA[1]]></executed>
+		<execTime><![CDATA[0.004]]></execTime>
+	</historyItem>
+</history>
